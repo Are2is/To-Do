@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do Liste</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header><h1>Meine TO-DO LISTE...</h1></header>
+    <div class="containerh2">
+        <div class="date" id="date-time"></div>
+        <button onclick="window.location.href='https://are2is.github.io/Bewerbung/';">Zurück zur Hauptseite</button>
+    </div>
+    <main>
+        <div class="taskcontainer" id="todoApp">
+            <ul id="taskList" style="display: flex; flex-wrap: wrap;"></ul>
+            <div class="todocontainer">
+                <input type="text" id="taskInput" maxlength="35" placeholder="Aufgabe eingeben...">
+                <span id="charCount">0/35</span>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p class="pfooter">
+            <strong>Impressum:</strong><br><br>
+            Aristeidis Kokas<br>
+            Schumacherstraße 21<br>
+            76275 Ettlingen, Deutschland<br><br>
+            <strong>Kontakt:</strong><br><br>
+            E-Mail: ariskokas0112@gmail.com<br>
+            Telefon: +49 176 84304378<br>
+        </p>
+        <div class="vonAres">
+            <h2>Den Quellcode mit Erklärung finden Sie in der PDF, die der E-Mail beigefügt ist.</h2>
+            <p>©2025 von <strong><a href="https://www.instagram.com/are2is/">Aristeidis Kokas</a></strong></p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
