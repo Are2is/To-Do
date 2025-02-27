@@ -3,11 +3,12 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    font-family: 'Roboto', sans-serif;
 }
 
 @font-face {
   font-family: 'Roboto';
-  src: url('fonts/roboto.woff2');
+  src: url('Roboto-Condensed.ttf');
   font-weight: normal;
   font-style: normal;
 }
